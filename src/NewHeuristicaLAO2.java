@@ -1,0 +1,57 @@
+import Problem.Description.Acao;
+import Problem.Description.Estado;
+
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * Created by Henri on 19/02/2019.
+ */
+
+public class NewHeuristicaLAO2 extends Heuristica {
+    double heuristic=0;
+    HashMap<Estado, HashMap<Acao, Double>> Q;
+    public NewHeuristicaLAO2(Map<Integer, Estado> e, double a, HashMap<Estado, HashMap<Acao, Double>> Q)
+    {
+        estadosFinais = e;
+        heuristic=a;
+        this.Q=Q;
+    }
+    public double calcula(Estado e) {
+        int size = e.actionSize();
+
+        double Qmin=Double.POSITIVE_INFINITY;
+        for (int i = 0; i < size; i++) {//itera por todas acoes s
+            Acao a = e.getAction(i);//pega ação
+            if (Qmin>Q.get(e).get(a)) {
+                Qmin = Q.get(e).get(a);
+                e.setBestEdge(i);
+            }
+               /* if (a.getName().equals("move-N"))
+                    e.setBestEdge(0);
+                if (a.getName().equals("move-S"))
+                    e.setBestEdge(1);
+                if (a.getName().equals("move-E"))
+                    e.setBestEdge(3);
+                if (a.getName().equals("move-W"))
+                    e.setBestEdge(2);
+
+            }*/
+        }
+
+        for (int i = 0; i < size; i++) {//itera por todas acoes s
+            Acao a = e.getAction(i);//pega ação
+            a.setQ(Qmin);
+
+
+        }
+e.setCost(Qmin);
+
+        return 1;
+    }
+    public double geth()
+    {
+        return heuristic;
+    }
+}
+
