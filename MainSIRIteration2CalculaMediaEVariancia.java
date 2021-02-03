@@ -9,7 +9,7 @@ import Problem.criaProblemaSIRvariasMeta;
 import Problem.criaProblemaSIR3;
 import java.util.HashMap;
 import Problem.cenarioNovo;
-class     MainSIRIteration2 {
+class MainSIRIteration2CalculaMediaEVariancia {
     private static final int SIZE = 1;
 
     public static void main_ORIGINAL(String args[]) {

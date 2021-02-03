@@ -1172,11 +1172,11 @@ public class LAO2 {
         //   imprimeQ(rsmdp.Q, rsmdp);
 
         // Imprime resultadoe cria arquivos
-/*
-              String nome = " X= " + x + " Y=" + y + " k= " + p.getK() + " desconto= " + p.getDiscount() + " passo= " + p.getTamanhoPasso() + " p2ffdafdfdfdfdfds.txt";
-            String Diretorios = "Problema do Rio alto epsilonteste1234/";
+
+              String nome = " X= " + x + " Y=" + y + " k= " + p.getK() + " desconto= " + p.getDiscount() + " passo= " + p.getTamanhoPasso() + " fimmmmmmmmmmmmmmmmmmm.txt";
+            String Diretorios = "Problema do Rio alto epsilonteste1234123213123/";
             imprimedireçãoQ3(x,y,nome,Diretorios);
-*/
+
     }
 
     public void iterterationValue3(Double minError, int x, int y) {
@@ -2302,7 +2302,7 @@ public class LAO2 {
             }
 
             z += 1;//contador
-
+System.out.println (auxresidual);
             qtdeValueIteration++;
         } while (auxresidual > minError); //break;//enquanto erro é maior que o minimo
 

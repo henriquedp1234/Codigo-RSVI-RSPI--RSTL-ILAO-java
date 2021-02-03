@@ -7,7 +7,7 @@ import Problem.criaProblemaIgorVersãoVoltaInicio2;
 import java.util.HashMap;
 import java.util.Iterator;
 
-class MainValueIterationMihatsch3
+class MainValueIterationMihatschRIOPolicyIteration
 {	
 	private static final int SIZE = 1;
     
@@ -37,8 +37,8 @@ class MainValueIterationMihatsch3
 		double averageTime = 0;
 		double averageTime2 = 0;
 		Problem p = new Problem(1);;
-		int x=10;
-		int y=12;
+		int x=50;
+		int y=50;
 				;
 
 		for(int i = 0; i < SIZE; i++)

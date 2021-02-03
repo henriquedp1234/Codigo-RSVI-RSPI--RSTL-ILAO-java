@@ -1,7 +1,7 @@
 import Problem.Arquivo;
 import Problem.Description.Problem;
 import Problem.criaProblemaIgorVersãoVoltaInicio;
-class MainValueIterationMihatschHeuristica
+class MainValueIterationMihatschtestahDET
 {	
 	private static final int SIZE = 1;
     

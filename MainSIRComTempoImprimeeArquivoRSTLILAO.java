@@ -3,7 +3,7 @@ import Problem.Arquivo2;
 import Problem.Description.Problem;
 import Problem.criaProblemaSIRvariasMeta;
 
-class MainSIRComTempo
+class MainSIRComTempoImprimeeArquivoRSTLILAO
 {	
 	private static final int SIZE = 1;
     

@@ -7,7 +7,7 @@ import Problem.criaProblemaIgorVersãoVoltaInicio22;
 import Problem.criaProblemaIgorpositivo3mudcost;
 import Problem.criaProblemaIgorpositivo4;
 import Problem.criaProblemaIgorpositivo2;
-class MainValueIterationMihatsch2
+class MainValueIterationMihatschRIO
 {	
 	private static final int SIZE = 1;
     
@@ -37,12 +37,13 @@ class MainValueIterationMihatsch2
 		double averageTime2 = 0;
 		Problem p = new Problem(1);
 
-		int x = 13;
-		int y = 10;
-		double ç[] = { -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, 0, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9};//k
-		//double ç[] = {-0.9};//k
+		int x = 50;
+		int y = 20;
+		//double ç[] = { -0.9, -0.8, -0.7, -0.6, -0.5, -0.4, 0, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9};//k
+		double ç[] = {0.9};//k
 		//double ç2[] = {0.6,0.7,0.8,0.9,0.99,1.0};//gamma
-		double ç2[] = {  1};//gamma
+		//double ç2[] = { 0.7,0.8,0.9, 1};//gamma
+		double ç2[] = { 1};//gamma
 		int SIZE = ç.length;
 		int SIZE2 = ç2.length;
 		for (int i = 0; i < SIZE; i++) {
@@ -108,11 +109,11 @@ class MainValueIterationMihatsch2
 				System.out.println("\nExecucao " + (i + 1) + " de " + SIZE);
 				System.out.println("Tempo medio " + averageTime / (i + 1));
 //				arquivoEntrada.fechaArquivo();
-				String nome=" X= "+x + " Y=" + y + " k= " + p.getK() + " desconto= " + p.getDiscount() + " passo= " + p.getTamanhoPasso() + " volta inicio iv.txt";
-				Arquivo arquivoSaida =new Arquivo(nome, Arquivo.ESCRITA);
-				arquivoSaida.escreveArquivo("Tempo de execucao: " + cT2.getTempo() + " ms");
-				arquivoSaida.escreveArquivo("Tempo de execucao: " + averageTime + " ms");
-				arquivoSaida.fechaArquivo();
+				String nome=" X= "+x + " Y=" + y + " k= " + p.getK() + " desconto= " + p.getDiscount() + " passo= " + p.getTamanhoPasso() + " vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv.txt";
+				Arquivo arquivoSaida3 =new Arquivo(nome, Arquivo.ESCRITA);
+				arquivoSaida3.escreveArquivo("Tempo de execucao: " + cT2.getTempo() + " ms");
+				arquivoSaida3.escreveArquivo("Tempo de execucao: " + averageTime + " ms");
+				arquivoSaida3.fechaArquivo();
 			}
 	//		String nome=" X= "+x + " Y=" + y + " k= " + p.getK() + " desconto= " + p.getDiscount() + " passo= " + p.getTamanhoPasso() + " volta inicio iv.txt";
 

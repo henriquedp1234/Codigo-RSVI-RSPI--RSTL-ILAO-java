@@ -8,7 +8,7 @@ import Problem.criaProblemaSIRvariasMeta;
 import java.util.HashMap;
 import java.util.LinkedList;
 
-class MainSIRIteration2compassadapoliticamaiorparamenor {
+class MainSIRIteration2calculaMediaVarianciaAproximação {
     private static final int SIZE = 1;
 
     public static void main_ORIGINAL(String args[]) {

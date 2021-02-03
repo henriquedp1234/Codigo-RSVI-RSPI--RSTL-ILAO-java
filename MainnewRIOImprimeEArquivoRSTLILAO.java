@@ -3,7 +3,7 @@ import Problem.*;
 
 import java.util.*;
 
-class Mainnew
+class MainnewRIOImprimeEArquivoRSTLILAO
 {
 	//private static final int SIZE = 13;
 	//private static final int SIZE = 5;
@@ -31,7 +31,7 @@ class Mainnew
 
 		//LAO lao = null;
 		//LAO lao2= null;
-		double ç[]={-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,0,0.9,0.8,0.7,0.6,0.5,0.4};//resto
+		double ç[]={0.9,-0.9,-0.8,-0.7,-0.6,-0.5,-0.4,0,0.9,0.8,0.7,0.6,0.5,0.4};//resto
 	//	double ç[]={0.5,0.8,0.9,-0.5 ,-0.8,-0.9,0.99,-0.99};//resto
 		//double ç[]={0.0, 0.3, 0.5,0.9,0.99};//hmean
 		//double ç[]={0.8};//resto
@@ -46,8 +46,8 @@ class Mainnew
 				double averageTime3 = 0;
 				Problem p = new Problem(1);
 
-				int x = 13;
-				int y = 10;
+				int x = 3;
+				int y = 3;
 
 
 				//arquivoEntrada = new Arquivo(, Arquivo.LEITURA);
