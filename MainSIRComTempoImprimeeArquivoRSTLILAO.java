@@ -159,6 +159,7 @@ class MainSIRComTempoImprimeeArquivoRSTLILAO
 
 
 	/*public static void main_IV(String args[]) {
+	
 
 		//Arquivo arquivoEntrada = new Arquivo(args[0], Arquivo.LEITURA);
 		Arquivo arquivoEntrada = null;
