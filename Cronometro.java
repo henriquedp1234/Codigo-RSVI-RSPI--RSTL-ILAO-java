@@ -1,3 +1,4 @@
+// implementação do cronometro
 public class Cronometro
 {
 	private long tempoInicio = 0;
