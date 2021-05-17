@@ -1,3 +1,4 @@
+//classe que implemanta a heurística custo mínimo
 import Problem.Description.Estado;
 import Problem.Description.Problem;
 import Problem.Description.*;
