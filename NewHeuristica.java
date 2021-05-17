@@ -1,3 +1,4 @@
+//Classe que implementa heurística 0
 import Problem.Description.Acao;
 import Problem.Description.Estado;
 import Problem.Description.Transicao;
