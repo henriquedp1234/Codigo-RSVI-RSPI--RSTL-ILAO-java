@@ -1,3 +1,4 @@
+//Classe que imploementa a Heurítica
 import Problem.Description.Estado;
 import Problem.Description.Problem;
 import Problem.Description.*;
