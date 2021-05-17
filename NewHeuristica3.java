@@ -1,3 +1,4 @@
+//Classe que armazena o Valor mínimo entre os Qs como Heurística para s e toda ação
 import Problem.Description.Acao;
 import Problem.Description.Estado;
 
