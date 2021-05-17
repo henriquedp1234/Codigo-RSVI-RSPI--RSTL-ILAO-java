@@ -1,5 +1,5 @@
 package Problem;
-
+//Sir sem estado meta para calcular variancia
 import Problem.Description.Acao;
 import Problem.Description.Estado;
 import Problem.Description.Problem;
