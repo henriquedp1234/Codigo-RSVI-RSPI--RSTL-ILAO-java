@@ -1,4 +1,4 @@
-
+//Classe que possui o ILAO* para o problema do RIO, usando recompensa.
 import Problem.Description.*;
 import Problem.Arquivo;
 
