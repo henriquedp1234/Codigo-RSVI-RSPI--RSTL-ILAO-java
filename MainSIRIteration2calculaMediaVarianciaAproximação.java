@@ -1,4 +1,4 @@
-Calculo RSTL-ILAO* +variância+média+geração de arquivos Tempo+politicas+aproximação SIR
+//Calculo RSTL-ILAO* +variância+média+geração de arquivos Tempo+politicas+aproximação SIR
 import Problem.Arquivo;
 import Problem.Description.Acao;
 import Problem.Description.Estado;
