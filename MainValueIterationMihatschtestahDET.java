@@ -1,3 +1,4 @@
+//teste da heurística determinização
 import Problem.Arquivo;
 import Problem.Description.Problem;
 import Problem.criaProblemaIgorVersãoVoltaInicio;
