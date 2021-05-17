@@ -1,3 +1,4 @@
+//Iteração de Política no problema do RIO
 import Problem.Arquivo;
 import Problem.Description.Acao;
 import Problem.Description.Estado;
