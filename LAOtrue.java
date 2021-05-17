@@ -4,7 +4,7 @@ import Problem.Description.Acao;
 import Problem.Description.Estado;
 import Problem.Description.Problem;
 import Problem.Description.Transicao;
-
+//tentativa implementação LAO
 import java.util.*;
 
 public class LAOtrue {
