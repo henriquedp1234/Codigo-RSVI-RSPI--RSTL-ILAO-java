@@ -1,3 +1,4 @@
+//Classe que possui o RSTL-ILAO* para o problema do RIO, usando recompensa.
 import Problem.Arquivo;
 import Problem.Arquivo2;
 import Problem.Description.Acao;
