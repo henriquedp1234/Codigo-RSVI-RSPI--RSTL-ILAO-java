@@ -1,3 +1,4 @@
+//Iteração de valor executando SIR e imprimindo em forma de matriz.
 import Problem.Arquivo;
 import Problem.Description.*;
 import Problem.*;
