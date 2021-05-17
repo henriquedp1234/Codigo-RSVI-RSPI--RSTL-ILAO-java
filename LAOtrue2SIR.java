@@ -1,3 +1,4 @@
+//tentativa implementação LAO
 import Problem.Arquivo;
 import Problem.Arquivo2;
 import Problem.Description.Acao;
