@@ -1,3 +1,4 @@
+//Cópia da classe LAOSIRT2
 import Problem.Arquivo;
 import Problem.Arquivo2;
 import Problem.Description.Acao;
