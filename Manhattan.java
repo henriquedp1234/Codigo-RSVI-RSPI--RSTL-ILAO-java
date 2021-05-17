@@ -1,3 +1,4 @@
+//Classe que implementa a heurística Manhattan
 import Problem.Description.Estado;
 import Problem.Description.Problem;
 import Problem.Description.*;
