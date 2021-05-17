@@ -1,4 +1,4 @@
-//implementação RSTL-ILAO* recompensa
+//implementação RSTL-ILAO* recompensa SIR
 import Problem.Arquivo;
 import Problem.Arquivo2;
 import Problem.Description.Acao;
