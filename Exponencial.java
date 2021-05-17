@@ -1,3 +1,4 @@
+// classe que implementa heurística para o ILAO exponencial
 import Problem.Description.Estado;
 import Problem.Description.Problem;
 import Problem.Description.*;
