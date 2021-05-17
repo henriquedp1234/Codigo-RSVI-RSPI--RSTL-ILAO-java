@@ -1,5 +1,5 @@
 package Problem;
-
+//Sir com varias metas todos I=0 e R=0
 import Problem.Description.Acao;
 import Problem.Description.Estado;
 import Problem.Description.Problem;
