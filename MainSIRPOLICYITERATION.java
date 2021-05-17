@@ -1,3 +1,4 @@
+//Classe Implementação iteração de política no SIR, execução variando k, beta e lambda
 import Problem.Arquivo;
 import Problem.Description.Acao;
 import Problem.Description.Estado;
