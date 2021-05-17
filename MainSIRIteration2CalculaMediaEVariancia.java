@@ -1,4 +1,4 @@
-//Calculo RSTL-ILAO* +variância+média+geração de arquivos Tempo+politicas
+//Calculo Iteração de Valor +variância+média+geração de arquivos Tempo+politicas
 import Problem.Arquivo;
 import Problem.Description.Acao;
 import Problem.Description.Estado;
